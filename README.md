@@ -24,9 +24,13 @@ Billing systems rarely throw an error for a *wrong* invoice — only for a *tech
 
 **5. Explainability** — Isolation Forest scores don't decompose into per-feature attribution, so a supervised surrogate model (Random Forest, trained to reproduce the hybrid model's decisions, 96.4% fidelity) is explained with SHAP — turning "flagged" into "flagged, and here's why."
 
+![SHAP Feature Importance](outputs/shap_feature_importance.png)
+
 **6. Forecasting** — A separate monthly revenue forecast (ARIMA) evaluated against a seasonal-naive baseline using a strict chronological train/test split, because random splitting would let a time-series model "see the future" during training.
 
 ## Results
+
+![Anomaly Detection Dashboard](outputs/anomaly_dashboard.png)
 
 | Metric | ML only | Hybrid (ML + rule) |
 |---|---|---|
@@ -36,6 +40,8 @@ Billing systems rarely throw an error for a *wrong* invoice — only for a *tech
 
 - **100% of the dollar value** of seeded anomalies (₹40.0L) was caught by the hybrid model
 - Recall broken out by anomaly type shows exactly where the pure-ML approach fell short (duplicates) and confirms the rule-based layer closed that specific gap — this diagnostic step is the part most anomaly-detection projects skip
+
+![Revenue Forecast](outputs/revenue_forecast.png)
 
 **Forecasting finding, stated honestly:** a seasonal SARIMA model was tested first and performed *worse* than a simple seasonal-naive baseline (14% MAPE vs 5%). With only 24 months of training data — two seasonal cycles — there isn't enough history for statsmodels to reliably estimate seasonal parameters; it ends up fitting noise. The simpler non-seasonal ARIMA(1,1,1) is more honest about what the data can actually support, and even it underperforms the naive baseline (6.0% vs 5.1% MAPE) on this particular dataset. **Not every dataset needs — or rewards — a complex model, and knowing when to stop adding complexity is part of the analysis.**
 
@@ -70,12 +76,12 @@ python revenue_forecast.py             # revenue forecasting
 ### Step 1 — `revenue_assurance_pipeline.py`
 Reads `data/billing_documents.csv`, `data/contracts.csv`, `data/business_partners.csv`, `data/GROUND_TRUTH_anomalies.csv`.
 Writes:
-- `outputs/scored_billing_documents_full.csv` — full scored dataset
-- `outputs/anomaly_dashboard.png` — results dashboard
-- `outputs/shap_feature_importance.png` — explainability chart
+- `scored_billing_documents_full.csv` — full scored dataset
+- `anomaly_dashboard.png` — results dashboard
+- `shap_feature_importance.png` — explainability chart
 
 ### Step 2 — `revenue_forecast.py`
 Reads `data/billing_documents.csv`.
 Writes:
-- `outputs/revenue_forecast.png` — forecast chart
-- `outputs/forecast_results.csv` — forecast vs actual, with 80% confidence interval
+- `revenue_forecast.png` — forecast chart
+- `forecast_results.csv` — forecast vs actual, with 80% confidence interval
