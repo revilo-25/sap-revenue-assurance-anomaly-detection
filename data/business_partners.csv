@@ -1,0 +1,501 @@
+GPART,PARTNER_NAME,REGION,CUSTOMER_SINCE,INDUSTRY
+BP100001,"Rodriguez, Figueroa and Sanchez",US-WEST,2024-01-26,SaaS
+BP100002,Rhodes PLC,IN-SOUTH,2024-01-16,Manufacturing
+BP100003,Johnson-Davis,IN-WEST,2024-02-12,Telecom
+BP100004,"Johnson, Gonzalez and Santos",IN-NORTH,2024-04-08,Telecom
+BP100005,Cole LLC,US-WEST,2024-05-26,SaaS
+BP100006,Blake and Sons,US-WEST,2024-05-06,Manufacturing
+BP100007,Ramirez-Lewis,US-EAST,2024-05-18,SaaS
+BP100008,Davis Inc,US-EAST,2024-03-05,FinServ
+BP100009,Munoz-Roman,IN-SOUTH,2024-05-12,SaaS
+BP100010,"Martinez, Nielsen and Miller",IN-SOUTH,2024-02-23,Telecom
+BP100011,"Montgomery, Hensley and Ray",IN-NORTH,2024-05-07,Retail
+BP100012,Stanley LLC,US-EAST,2024-06-27,SaaS
+BP100013,Delacruz Group,US-EAST,2024-02-20,Telecom
+BP100014,"Flowers, Martin and Kelly",US-WEST,2024-05-01,Manufacturing
+BP100015,"Zuniga, Wong and Lynch",US-WEST,2024-01-31,Retail
+BP100016,"Sanchez, Ford and Nelson",IN-EAST,2024-06-16,Telecom
+BP100017,"Hawkins, Cohen and Cameron",IN-EAST,2024-05-20,Retail
+BP100018,Underwood LLC,IN-WEST,2024-03-13,SaaS
+BP100019,Clark PLC,IN-NORTH,2024-06-07,Manufacturing
+BP100020,Lewis-Porter,IN-EAST,2024-06-09,Media
+BP100021,"Ellis, Baker and Wright",IN-WEST,2024-04-11,Telecom
+BP100022,Burgess-Patterson,IN-NORTH,2024-04-15,Media
+BP100023,Robinson-Bright,IN-SOUTH,2024-04-02,SaaS
+BP100024,Campos Inc,IN-EAST,2024-01-28,SaaS
+BP100025,Conner Group,IN-WEST,2024-04-17,Media
+BP100026,James-Ferrell,US-EAST,2024-04-05,Media
+BP100027,"Valencia, Smith and Le",IN-SOUTH,2024-05-03,Manufacturing
+BP100028,"Potter, Mack and Peterson",IN-EAST,2024-02-23,Retail
+BP100029,Chavez Ltd,IN-SOUTH,2024-06-07,FinServ
+BP100030,Stanton-Gill,IN-SOUTH,2024-04-01,Retail
+BP100031,Harrell LLC,IN-WEST,2024-06-01,Manufacturing
+BP100032,"Lynch, Hernandez and Farmer",US-EAST,2024-04-07,Media
+BP100033,"Sellers, George and Burns",US-EAST,2024-01-21,Telecom
+BP100034,Koch-Decker,US-WEST,2024-02-25,SaaS
+BP100035,Allen PLC,IN-SOUTH,2024-06-20,Manufacturing
+BP100036,Dennis Inc,IN-NORTH,2024-06-26,Media
+BP100037,"Cannon, Anderson and Alvarez",IN-SOUTH,2024-04-09,Telecom
+BP100038,Rose-Obrien,IN-SOUTH,2024-06-23,FinServ
+BP100039,"Campos, Vaughn and Marquez",IN-WEST,2024-03-13,FinServ
+BP100040,"Santos, Kim and Holmes",US-WEST,2024-01-22,Media
+BP100041,Brown Inc,IN-NORTH,2024-04-16,Media
+BP100042,Chapman Inc,IN-WEST,2024-01-13,Telecom
+BP100043,"Brown, Jones and Johnson",US-WEST,2024-02-29,Media
+BP100044,"Young, Caldwell and Lewis",US-WEST,2024-01-24,Manufacturing
+BP100045,"Johnston, Sanchez and Kennedy",US-WEST,2024-03-14,SaaS
+BP100046,Davis Group,US-EAST,2024-03-05,Manufacturing
+BP100047,Owens-Daniel,IN-NORTH,2024-05-01,Retail
+BP100048,"Garcia, Powell and Morgan",US-WEST,2024-06-04,Telecom
+BP100049,Lee PLC,IN-NORTH,2024-03-22,FinServ
+BP100050,White-Ford,IN-EAST,2024-06-07,Media
+BP100051,Ramos PLC,US-WEST,2024-01-18,Manufacturing
+BP100052,"Kidd, Huff and Novak",US-EAST,2024-06-16,Telecom
+BP100053,Martin Group,US-WEST,2024-03-28,Media
+BP100054,Barrera-Martin,IN-SOUTH,2024-01-01,Telecom
+BP100055,Baker-Bowers,IN-SOUTH,2024-03-23,Media
+BP100056,Horton-Cross,IN-EAST,2024-05-21,Media
+BP100057,"Higgins, Moore and Phillips",IN-SOUTH,2024-06-24,Telecom
+BP100058,"Fitzgerald, Brown and Edwards",US-EAST,2024-01-10,Manufacturing
+BP100059,Shaw-Farrell,IN-WEST,2024-01-29,Telecom
+BP100060,"Miller, Lopez and Larson",US-WEST,2024-05-02,FinServ
+BP100061,Powell PLC,IN-EAST,2024-02-14,Manufacturing
+BP100062,"Williams, Miller and Sandoval",IN-EAST,2024-04-12,Telecom
+BP100063,Donovan-Harris,IN-WEST,2024-05-09,Telecom
+BP100064,Baker and Sons,IN-NORTH,2024-05-01,Manufacturing
+BP100065,Bryant-Hickman,US-EAST,2024-06-18,Retail
+BP100066,Ellis PLC,IN-WEST,2024-06-29,Manufacturing
+BP100067,Medina PLC,US-EAST,2024-02-18,FinServ
+BP100068,Ibarra-Suarez,US-EAST,2024-03-07,FinServ
+BP100069,Kim PLC,IN-WEST,2024-05-07,Telecom
+BP100070,"Riggs, Roman and Rice",IN-NORTH,2024-04-30,Retail
+BP100071,"Evans, Alvarado and Mcmillan",IN-EAST,2024-01-25,SaaS
+BP100072,Preston Ltd,IN-SOUTH,2024-04-10,SaaS
+BP100073,Campbell-Clark,IN-NORTH,2024-03-03,Manufacturing
+BP100074,"Walters, Baker and Freeman",IN-NORTH,2024-06-12,Manufacturing
+BP100075,Davis Group,IN-EAST,2024-05-30,Retail
+BP100076,Smith and Sons,IN-SOUTH,2024-04-25,FinServ
+BP100077,Martin-Ramos,IN-EAST,2024-05-07,Retail
+BP100078,"Smith, Jones and Ware",IN-EAST,2024-06-12,Retail
+BP100079,"Johnson, Wood and Tran",IN-WEST,2024-03-18,Retail
+BP100080,Parker Inc,IN-SOUTH,2024-06-11,Manufacturing
+BP100081,Fleming Ltd,US-WEST,2024-01-19,SaaS
+BP100082,"Henson, Russell and Oliver",US-WEST,2024-01-28,Retail
+BP100083,Hancock and Sons,IN-WEST,2024-06-08,Manufacturing
+BP100084,White LLC,IN-WEST,2024-05-21,SaaS
+BP100085,Pham-Shields,IN-WEST,2024-05-26,FinServ
+BP100086,Moore-Haynes,IN-NORTH,2024-03-10,FinServ
+BP100087,Garrison and Sons,IN-SOUTH,2024-02-06,Manufacturing
+BP100088,Bailey-Hoover,US-WEST,2024-06-06,Media
+BP100089,Johnson and Sons,US-EAST,2024-03-13,Telecom
+BP100090,Lin-Rasmussen,US-EAST,2024-02-20,SaaS
+BP100091,"Hicks, Frazier and Anthony",US-WEST,2024-02-29,Media
+BP100092,Wilson LLC,US-WEST,2024-02-02,Retail
+BP100093,Johnson-Carlson,US-EAST,2024-03-03,Telecom
+BP100094,Graham-Joyce,IN-NORTH,2024-01-21,Media
+BP100095,"Lee, Williams and Graham",IN-NORTH,2024-04-04,Retail
+BP100096,"Mcdaniel, Bentley and Mclaughlin",US-EAST,2024-02-05,SaaS
+BP100097,Jones-Beck,US-EAST,2024-02-29,Media
+BP100098,Alvarado-Martinez,IN-EAST,2024-06-11,SaaS
+BP100099,"Parker, Ortiz and Powell",IN-SOUTH,2024-02-23,Media
+BP100100,Lee Ltd,IN-WEST,2024-06-19,Telecom
+BP100101,"Adkins, Thompson and Carroll",IN-SOUTH,2024-03-14,Telecom
+BP100102,Torres and Sons,US-EAST,2024-03-18,SaaS
+BP100103,"Lawson, Morris and Ramos",IN-SOUTH,2024-05-02,Manufacturing
+BP100104,"Kennedy, Santana and Flynn",IN-EAST,2024-01-31,SaaS
+BP100105,Campbell Ltd,US-EAST,2024-04-24,Telecom
+BP100106,Davis-Crane,IN-NORTH,2024-02-12,Manufacturing
+BP100107,Walker-Gonzalez,IN-EAST,2024-01-05,Retail
+BP100108,Riggs PLC,IN-NORTH,2024-06-02,Media
+BP100109,Gibson Ltd,US-EAST,2024-04-14,Retail
+BP100110,"Horton, Snyder and Sanchez",IN-EAST,2024-04-28,Telecom
+BP100111,Stafford Inc,US-EAST,2024-05-20,Manufacturing
+BP100112,Thompson Ltd,US-WEST,2024-04-03,Telecom
+BP100113,Grant Inc,US-WEST,2024-03-23,Media
+BP100114,Contreras-Travis,IN-EAST,2024-04-17,Manufacturing
+BP100115,Salazar-Ball,US-WEST,2024-04-01,Media
+BP100116,"Griffin, Moore and Hensley",IN-EAST,2024-03-22,Retail
+BP100117,Larsen LLC,IN-EAST,2024-05-18,SaaS
+BP100118,"Washington, Allen and Gonzales",IN-NORTH,2024-05-09,Telecom
+BP100119,Nelson LLC,IN-SOUTH,2024-06-10,Media
+BP100120,Taylor and Sons,IN-SOUTH,2024-03-10,Retail
+BP100121,Mccarthy Inc,US-EAST,2024-03-16,Telecom
+BP100122,Daniels-Perry,US-EAST,2024-02-07,Telecom
+BP100123,Price-Carrillo,IN-SOUTH,2024-06-20,SaaS
+BP100124,Gates PLC,US-WEST,2024-03-09,Manufacturing
+BP100125,Bender LLC,IN-SOUTH,2024-05-16,Telecom
+BP100126,Medina-Navarro,IN-SOUTH,2024-05-24,SaaS
+BP100127,Freeman LLC,IN-WEST,2024-03-19,SaaS
+BP100128,Price Ltd,US-EAST,2024-05-02,Telecom
+BP100129,Ramsey-Pittman,IN-WEST,2024-06-15,Manufacturing
+BP100130,"Ferguson, Meadows and Vargas",IN-EAST,2024-04-30,Telecom
+BP100131,Day and Sons,US-EAST,2024-06-05,Telecom
+BP100132,Williams Group,US-WEST,2024-02-29,Retail
+BP100133,Murphy-Juarez,US-EAST,2024-03-09,FinServ
+BP100134,King-Miller,IN-NORTH,2024-01-04,FinServ
+BP100135,"Williams, Crane and Walker",IN-EAST,2024-01-13,Telecom
+BP100136,"Williams, Johnson and Wright",IN-SOUTH,2024-05-31,SaaS
+BP100137,"Hernandez, Martinez and Caldwell",US-WEST,2024-04-12,FinServ
+BP100138,Marshall LLC,IN-WEST,2024-05-18,FinServ
+BP100139,Obrien Ltd,IN-EAST,2024-05-10,FinServ
+BP100140,Oconnell Inc,US-WEST,2024-04-14,SaaS
+BP100141,Johnston-Odonnell,US-WEST,2024-03-08,Manufacturing
+BP100142,"Gonzalez, Vargas and Rivas",US-WEST,2024-02-13,SaaS
+BP100143,"Barton, Jefferson and Burke",IN-SOUTH,2024-01-22,FinServ
+BP100144,"Patton, Reed and Patterson",US-WEST,2024-03-08,Media
+BP100145,"Holland, Smith and Fisher",IN-SOUTH,2024-03-29,Telecom
+BP100146,Yu-Reid,IN-NORTH,2024-05-29,Telecom
+BP100147,"Hernandez, Thompson and Boyd",US-EAST,2024-04-27,FinServ
+BP100148,"Morton, Medina and Webb",IN-NORTH,2024-03-19,FinServ
+BP100149,"Vargas, Morris and Sanchez",IN-NORTH,2024-06-18,Media
+BP100150,Keith-Sanchez,IN-EAST,2024-03-25,Telecom
+BP100151,"Barnett, Rogers and Snyder",IN-SOUTH,2024-02-28,FinServ
+BP100152,Lewis-Salinas,US-EAST,2024-03-02,SaaS
+BP100153,"Haynes, Hill and Smith",IN-SOUTH,2024-06-20,Manufacturing
+BP100154,Allen Group,US-EAST,2024-03-29,SaaS
+BP100155,Vaughn Ltd,IN-SOUTH,2024-05-08,Telecom
+BP100156,Mcguire-Davis,IN-NORTH,2024-02-10,FinServ
+BP100157,"Sanchez, Beck and Wood",IN-EAST,2024-04-10,FinServ
+BP100158,Coleman-Reese,IN-NORTH,2024-02-29,FinServ
+BP100159,"Chavez, Parker and Hall",IN-SOUTH,2024-05-10,Telecom
+BP100160,Wilson-Herrera,IN-EAST,2024-05-17,SaaS
+BP100161,Lee Ltd,IN-EAST,2024-03-28,Media
+BP100162,"Lawrence, Wolf and Carlson",IN-EAST,2024-06-26,Media
+BP100163,Phillips LLC,IN-EAST,2024-02-02,Manufacturing
+BP100164,Erickson and Sons,US-WEST,2024-02-19,Retail
+BP100165,Tran Ltd,US-WEST,2024-06-19,Manufacturing
+BP100166,"Oneill, Henry and Salas",IN-EAST,2024-04-13,Telecom
+BP100167,Mendoza-Peterson,IN-NORTH,2024-06-23,Media
+BP100168,Everett-Woods,IN-NORTH,2024-05-28,SaaS
+BP100169,Vasquez-Ray,US-EAST,2024-05-04,Manufacturing
+BP100170,Hernandez PLC,US-EAST,2024-06-20,SaaS
+BP100171,Mcknight Inc,US-WEST,2024-04-11,Media
+BP100172,Obrien-Gibbs,IN-SOUTH,2024-02-10,SaaS
+BP100173,"James, Kerr and Evans",US-EAST,2024-04-16,FinServ
+BP100174,Torres-Oliver,US-EAST,2024-04-20,Retail
+BP100175,"Garcia, Farmer and Garrett",IN-NORTH,2024-02-17,SaaS
+BP100176,Moore and Sons,US-EAST,2024-04-09,SaaS
+BP100177,Smith Group,IN-NORTH,2024-05-04,SaaS
+BP100178,Carter-Hall,US-EAST,2024-05-07,SaaS
+BP100179,"Heath, Jones and Hall",US-WEST,2024-02-17,Telecom
+BP100180,"Lawrence, Lara and Gonzalez",IN-EAST,2024-01-21,SaaS
+BP100181,Holland LLC,US-EAST,2024-05-29,Telecom
+BP100182,Brown LLC,US-EAST,2024-04-17,Retail
+BP100183,"Morse, Gonzales and Harrison",IN-SOUTH,2024-02-25,Retail
+BP100184,Bender-Mason,IN-SOUTH,2024-03-30,FinServ
+BP100185,George Group,US-WEST,2024-05-12,Retail
+BP100186,"Wright, Davis and Hayden",US-EAST,2024-05-31,Retail
+BP100187,"Matthews, Smith and Hubbard",IN-WEST,2024-05-28,Media
+BP100188,"Williams, Avila and Ruiz",IN-NORTH,2024-04-27,Manufacturing
+BP100189,White-Richards,US-WEST,2024-04-24,Media
+BP100190,Costa-Harrison,IN-NORTH,2024-03-14,Media
+BP100191,Santiago-Hodge,IN-EAST,2024-02-29,Telecom
+BP100192,"Simpson, Bates and Morales",US-WEST,2024-05-17,Manufacturing
+BP100193,Gibson LLC,IN-WEST,2024-02-15,FinServ
+BP100194,Cordova Group,IN-WEST,2024-06-05,SaaS
+BP100195,Sandoval PLC,IN-SOUTH,2024-03-24,FinServ
+BP100196,Lopez LLC,US-EAST,2024-04-22,Retail
+BP100197,Garrett-Wolf,IN-SOUTH,2024-02-06,SaaS
+BP100198,"Anderson, Roberts and Gilmore",US-EAST,2024-03-28,Telecom
+BP100199,Dudley PLC,US-EAST,2024-05-24,Media
+BP100200,"Moore, Pierce and Tran",IN-NORTH,2024-01-17,Media
+BP100201,Murray Inc,IN-SOUTH,2024-04-27,Telecom
+BP100202,Jimenez Ltd,IN-WEST,2024-02-22,Media
+BP100203,"Hill, Davenport and Baird",IN-NORTH,2024-02-14,FinServ
+BP100204,"Thomas, Lee and Greene",US-EAST,2024-05-15,Manufacturing
+BP100205,Shields LLC,IN-WEST,2024-05-19,Retail
+BP100206,Morgan-French,US-WEST,2024-02-18,Retail
+BP100207,Campbell LLC,IN-SOUTH,2024-05-31,Manufacturing
+BP100208,"Duarte, Burns and Hernandez",US-EAST,2024-04-07,Media
+BP100209,Cook-Hines,US-WEST,2024-03-09,SaaS
+BP100210,Kane-Pollard,IN-NORTH,2024-02-13,Media
+BP100211,Hall-Rowe,IN-SOUTH,2024-01-08,SaaS
+BP100212,"Kennedy, Mcintyre and James",US-WEST,2024-06-27,Retail
+BP100213,"Pollard, Simpson and Johnson",IN-NORTH,2024-03-31,Media
+BP100214,"Rivera, Garcia and Kirk",IN-WEST,2024-01-19,Retail
+BP100215,Smith-Thomas,IN-NORTH,2024-06-06,Manufacturing
+BP100216,Jones LLC,IN-WEST,2024-03-02,Telecom
+BP100217,"Sanders, Miller and Murphy",US-WEST,2024-05-02,Manufacturing
+BP100218,"James, Stewart and Higgins",IN-WEST,2024-05-17,Retail
+BP100219,"Johnson, Jones and Welch",IN-EAST,2024-06-15,Media
+BP100220,Francis Group,IN-SOUTH,2024-06-26,SaaS
+BP100221,"Padilla, Garcia and Jackson",US-WEST,2024-02-24,FinServ
+BP100222,Williams Inc,IN-WEST,2024-02-23,SaaS
+BP100223,Jordan-Sanchez,IN-SOUTH,2024-03-15,Media
+BP100224,"Sparks, Jackson and Miller",IN-NORTH,2024-06-06,Manufacturing
+BP100225,"Vega, Jimenez and Aguilar",IN-WEST,2024-02-12,Telecom
+BP100226,"King, Scott and Smith",US-WEST,2024-05-25,FinServ
+BP100227,Byrd-Moore,US-EAST,2024-03-20,Manufacturing
+BP100228,Huerta-Evans,IN-EAST,2024-06-23,Retail
+BP100229,"Wright, Bruce and Gonzalez",IN-SOUTH,2024-03-10,SaaS
+BP100230,Rodriguez-James,IN-SOUTH,2024-03-05,Manufacturing
+BP100231,Haney-Phillips,IN-NORTH,2024-06-26,Retail
+BP100232,"Foster, Smith and Grimes",IN-SOUTH,2024-05-20,Media
+BP100233,Lozano Ltd,US-EAST,2024-03-30,Retail
+BP100234,Parsons-Hall,IN-NORTH,2024-05-25,FinServ
+BP100235,Fields PLC,IN-NORTH,2024-02-15,SaaS
+BP100236,"Saunders, Becker and Taylor",IN-WEST,2024-01-18,Media
+BP100237,"Lucas, Parker and Alexander",IN-SOUTH,2024-04-14,Media
+BP100238,"Anderson, Browning and Murphy",IN-NORTH,2024-03-16,Manufacturing
+BP100239,Anderson PLC,IN-NORTH,2024-06-07,Manufacturing
+BP100240,Schmidt-Mcintyre,IN-SOUTH,2024-05-30,Media
+BP100241,Sloan-Raymond,US-EAST,2024-06-24,FinServ
+BP100242,Francis-Morgan,US-EAST,2024-01-21,Manufacturing
+BP100243,Taylor and Sons,IN-NORTH,2024-06-04,Telecom
+BP100244,"Craig, Sanders and Singleton",IN-NORTH,2024-04-10,Telecom
+BP100245,Gibbs Inc,IN-EAST,2024-02-17,SaaS
+BP100246,Gibson Ltd,IN-NORTH,2024-05-15,Manufacturing
+BP100247,Richards-Carson,IN-WEST,2024-06-19,FinServ
+BP100248,Leonard Group,US-WEST,2024-01-05,Manufacturing
+BP100249,"Murphy, Bishop and Holland",IN-NORTH,2024-04-25,Media
+BP100250,Blankenship-Turner,IN-NORTH,2024-03-14,Manufacturing
+BP100251,Williams Inc,IN-SOUTH,2024-02-25,FinServ
+BP100252,Wilson-Young,IN-SOUTH,2024-04-07,FinServ
+BP100253,Chavez-Santiago,IN-NORTH,2024-05-14,Telecom
+BP100254,"Barnes, Newton and Moore",IN-EAST,2024-03-16,Media
+BP100255,Bass PLC,IN-WEST,2024-03-14,Telecom
+BP100256,Johnson-Wood,IN-NORTH,2024-03-21,SaaS
+BP100257,Foley Inc,US-WEST,2024-06-26,Telecom
+BP100258,Stephens-Levine,IN-EAST,2024-03-05,Media
+BP100259,Hill-Donaldson,IN-WEST,2024-06-20,SaaS
+BP100260,Davis-Lewis,IN-WEST,2024-04-25,Media
+BP100261,Williams LLC,US-WEST,2024-02-14,Retail
+BP100262,Buchanan and Sons,IN-EAST,2024-01-13,Manufacturing
+BP100263,"Clark, Robinson and Kane",US-EAST,2024-02-29,Media
+BP100264,Kramer PLC,IN-SOUTH,2024-01-01,SaaS
+BP100265,Huerta PLC,IN-WEST,2024-02-15,Telecom
+BP100266,Rodriguez Inc,US-EAST,2024-01-24,Media
+BP100267,Tyler-Young,IN-SOUTH,2024-02-28,SaaS
+BP100268,Baker and Sons,US-EAST,2024-05-14,FinServ
+BP100269,"Wilson, Brown and West",IN-WEST,2024-03-06,Manufacturing
+BP100270,"Rodriguez, Gordon and Dougherty",IN-WEST,2024-01-08,FinServ
+BP100271,"Boyd, Ellis and Maynard",US-EAST,2024-01-12,Retail
+BP100272,Boone-Simmons,IN-SOUTH,2024-01-20,FinServ
+BP100273,"Browning, Jones and Miller",US-EAST,2024-04-20,Telecom
+BP100274,Martinez PLC,IN-WEST,2024-04-24,SaaS
+BP100275,"Joseph, James and Harper",US-WEST,2024-02-23,FinServ
+BP100276,"Jacobs, Garcia and Miles",IN-SOUTH,2024-06-03,Retail
+BP100277,"Rich, Arnold and Glenn",US-EAST,2024-03-18,Manufacturing
+BP100278,Gutierrez Group,US-WEST,2024-03-13,Manufacturing
+BP100279,"Davis, Simmons and Ortega",US-WEST,2024-03-08,Manufacturing
+BP100280,Mcdaniel Group,IN-NORTH,2024-01-13,Media
+BP100281,Davis Inc,IN-EAST,2024-05-14,SaaS
+BP100282,Cain-Hawkins,US-WEST,2024-04-16,Media
+BP100283,"Hoffman, Santiago and Jenkins",US-EAST,2024-06-07,Media
+BP100284,Parrish-Griffith,US-WEST,2024-06-24,SaaS
+BP100285,"Edwards, Garcia and Romero",US-WEST,2024-01-29,Media
+BP100286,Walker-Rodriguez,US-EAST,2024-06-02,Media
+BP100287,Wilson-Ramirez,US-WEST,2024-02-10,FinServ
+BP100288,Bruce-Villegas,IN-WEST,2024-05-28,FinServ
+BP100289,"Leonard, Hawkins and Lynch",US-WEST,2024-04-29,Media
+BP100290,"Adams, White and Park",US-EAST,2024-02-25,Telecom
+BP100291,Bell-White,IN-NORTH,2024-01-26,FinServ
+BP100292,"Morales, Thomas and Schultz",US-WEST,2024-01-06,FinServ
+BP100293,"Moreno, Bennett and Chavez",US-WEST,2024-01-29,Manufacturing
+BP100294,Griffith-Frank,IN-NORTH,2024-04-12,Retail
+BP100295,Ware and Sons,US-EAST,2024-01-29,Media
+BP100296,"Williams, Miller and Ramos",IN-EAST,2024-03-17,Retail
+BP100297,"Ramos, Nelson and Fischer",IN-SOUTH,2024-01-21,Media
+BP100298,Rodriguez-Gregory,IN-WEST,2024-04-17,Telecom
+BP100299,"Estrada, Williams and Foster",IN-EAST,2024-04-18,Retail
+BP100300,Harris and Sons,US-EAST,2024-05-18,Manufacturing
+BP100301,Roberts-Wilson,IN-WEST,2024-03-31,FinServ
+BP100302,Thompson-James,IN-EAST,2024-05-07,FinServ
+BP100303,"Hansen, Barnett and Gomez",US-WEST,2024-03-12,Telecom
+BP100304,"Williams, Smith and Morse",US-EAST,2024-06-05,FinServ
+BP100305,"Patterson, Sullivan and Bowman",US-WEST,2024-02-22,Telecom
+BP100306,Smith-Nguyen,US-WEST,2024-05-25,SaaS
+BP100307,"Stevens, Norris and Cox",IN-WEST,2024-03-20,Retail
+BP100308,Sanchez PLC,US-WEST,2024-03-13,Manufacturing
+BP100309,Foster LLC,US-EAST,2024-05-14,Media
+BP100310,Cook and Sons,IN-SOUTH,2024-01-14,Telecom
+BP100311,"Wilson, Hicks and Bullock",US-WEST,2024-03-04,Media
+BP100312,"Mullen, Brewer and Hernandez",IN-NORTH,2024-01-19,Telecom
+BP100313,Gonzalez-Morrison,IN-NORTH,2024-05-17,SaaS
+BP100314,"Jones, Bean and Burton",IN-SOUTH,2024-03-24,Telecom
+BP100315,"Wolf, Cole and Glass",IN-EAST,2024-04-12,Retail
+BP100316,"Downs, Morris and Maddox",IN-SOUTH,2024-02-27,FinServ
+BP100317,Jones-Ramos,IN-EAST,2024-02-24,Manufacturing
+BP100318,Vargas-Bell,US-EAST,2024-01-14,Telecom
+BP100319,Hayes-Brown,US-WEST,2024-05-30,Manufacturing
+BP100320,Newman Inc,IN-EAST,2024-04-21,FinServ
+BP100321,"Cruz, Carpenter and Best",IN-EAST,2024-05-13,Telecom
+BP100322,Cole PLC,IN-NORTH,2024-04-27,Manufacturing
+BP100323,Jacobs-Mason,US-WEST,2024-06-22,SaaS
+BP100324,Garcia-Nolan,IN-SOUTH,2024-03-03,FinServ
+BP100325,"Miller, Lucas and Williams",IN-NORTH,2024-05-08,Telecom
+BP100326,Warren-Bishop,US-WEST,2024-03-06,Retail
+BP100327,Hughes-Schroeder,IN-EAST,2024-05-02,SaaS
+BP100328,Mccormick Ltd,US-EAST,2024-03-01,Telecom
+BP100329,Davis-Gregory,IN-SOUTH,2024-02-21,FinServ
+BP100330,"York, Brandt and Morrison",IN-NORTH,2024-01-28,FinServ
+BP100331,Aguilar and Sons,US-WEST,2024-06-14,Retail
+BP100332,Ponce-Hale,US-EAST,2024-03-11,Retail
+BP100333,"Fletcher, Miller and Hansen",IN-WEST,2024-04-26,FinServ
+BP100334,Li-Santiago,US-EAST,2024-05-30,Manufacturing
+BP100335,"Osborn, Gaines and Davis",US-EAST,2024-05-01,FinServ
+BP100336,"Cox, Cox and White",US-EAST,2024-02-08,FinServ
+BP100337,Lee-Cooke,IN-NORTH,2024-01-29,Manufacturing
+BP100338,Richard-Garcia,IN-EAST,2024-05-19,FinServ
+BP100339,"Stephenson, Johnson and Rogers",IN-WEST,2024-05-18,Telecom
+BP100340,Harper and Sons,US-WEST,2024-01-30,Media
+BP100341,"Wise, Lamb and Martin",US-EAST,2024-03-20,FinServ
+BP100342,Diaz-Ball,US-WEST,2024-06-24,Telecom
+BP100343,"Mitchell, Goodman and Cole",IN-WEST,2024-04-06,FinServ
+BP100344,Sheppard-Mueller,IN-SOUTH,2024-06-12,Manufacturing
+BP100345,Richardson PLC,IN-WEST,2024-06-27,Telecom
+BP100346,Hammond-Strickland,IN-WEST,2024-04-01,Media
+BP100347,Burch-Montoya,IN-WEST,2024-05-25,Retail
+BP100348,Salas Inc,IN-SOUTH,2024-04-26,Telecom
+BP100349,Spencer-Garcia,IN-NORTH,2024-06-02,Telecom
+BP100350,Mitchell and Sons,IN-EAST,2024-02-19,Manufacturing
+BP100351,"Hernandez, Kim and Potts",IN-NORTH,2024-02-10,Manufacturing
+BP100352,Wilkerson-Arias,IN-NORTH,2024-03-16,SaaS
+BP100353,Shaw-Young,IN-EAST,2024-06-29,FinServ
+BP100354,Walker-Flores,IN-WEST,2024-01-18,Retail
+BP100355,"Santos, Moody and Taylor",IN-EAST,2024-02-21,FinServ
+BP100356,Horton-Taylor,IN-SOUTH,2024-05-07,Telecom
+BP100357,Gilbert-Bullock,IN-EAST,2024-01-04,FinServ
+BP100358,Conley PLC,US-EAST,2024-06-19,Manufacturing
+BP100359,"Rose, Rodriguez and Roberts",IN-SOUTH,2024-02-24,Retail
+BP100360,Allen Ltd,IN-EAST,2024-05-23,FinServ
+BP100361,Brown-Copeland,IN-SOUTH,2024-03-31,Media
+BP100362,"Smith, Robertson and Allen",IN-WEST,2024-01-26,FinServ
+BP100363,Smith-Gomez,IN-EAST,2024-04-13,Retail
+BP100364,Beck Inc,US-WEST,2024-04-04,Manufacturing
+BP100365,Jones-Fox,US-EAST,2024-04-01,Retail
+BP100366,"Spencer, Myers and Harrison",IN-NORTH,2024-04-25,FinServ
+BP100367,King-Smith,IN-NORTH,2024-05-22,Media
+BP100368,Allen-Sandoval,IN-EAST,2024-01-19,FinServ
+BP100369,"Moss, Cook and Williams",IN-SOUTH,2024-04-08,FinServ
+BP100370,"Thompson, Maxwell and Marshall",IN-WEST,2024-05-05,Manufacturing
+BP100371,"White, Taylor and Baldwin",US-WEST,2024-06-19,FinServ
+BP100372,Carter Inc,US-WEST,2024-05-23,Telecom
+BP100373,Stewart LLC,IN-EAST,2024-04-03,Telecom
+BP100374,"Kennedy, Johnson and Lucas",US-EAST,2024-02-21,Retail
+BP100375,Glenn LLC,IN-SOUTH,2024-02-19,FinServ
+BP100376,Kim-Ross,US-EAST,2024-03-20,Retail
+BP100377,Morgan-Lopez,US-WEST,2024-05-05,SaaS
+BP100378,Glass-Stone,IN-SOUTH,2024-05-25,Manufacturing
+BP100379,"Coleman, Jordan and Carney",IN-EAST,2024-02-02,Telecom
+BP100380,Morris-Miller,IN-EAST,2024-04-29,Telecom
+BP100381,Griffin-Robbins,IN-SOUTH,2024-01-31,Media
+BP100382,Bell-Williams,IN-EAST,2024-06-06,Media
+BP100383,Mendez-Graham,IN-NORTH,2024-04-25,FinServ
+BP100384,Jones Ltd,IN-WEST,2024-03-14,Media
+BP100385,"Owen, Shelton and Cisneros",IN-EAST,2024-01-26,Media
+BP100386,"Gregory, Kim and Martinez",IN-EAST,2024-02-12,Media
+BP100387,"Diaz, Reyes and Bradley",IN-SOUTH,2024-04-19,FinServ
+BP100388,"Cole, Watson and Wallace",IN-SOUTH,2024-01-14,Manufacturing
+BP100389,Moreno Group,US-EAST,2024-02-26,SaaS
+BP100390,Wright-Wilson,IN-WEST,2024-05-13,Telecom
+BP100391,Holmes-Mcintyre,US-WEST,2024-01-22,SaaS
+BP100392,Padilla-Lewis,US-WEST,2024-04-20,SaaS
+BP100393,"Hendricks, Henry and Martinez",IN-SOUTH,2024-06-03,Telecom
+BP100394,Thompson-Reeves,IN-NORTH,2024-06-29,SaaS
+BP100395,"Ponce, Downs and Contreras",US-EAST,2024-05-08,Telecom
+BP100396,"Daniels, Vance and York",IN-NORTH,2024-05-08,Telecom
+BP100397,"Little, Leon and Hicks",IN-EAST,2024-01-22,Manufacturing
+BP100398,Conner and Sons,IN-SOUTH,2024-05-23,Retail
+BP100399,Ward PLC,IN-NORTH,2024-03-07,FinServ
+BP100400,"Anderson, Henson and Jones",US-WEST,2024-03-13,Media
+BP100401,"Higgins, Fox and Hammond",IN-WEST,2024-05-29,Telecom
+BP100402,Martinez LLC,US-EAST,2024-04-26,Retail
+BP100403,Owens-Holmes,US-WEST,2024-01-24,Manufacturing
+BP100404,"Bowman, White and Burch",IN-SOUTH,2024-03-19,Telecom
+BP100405,Guerra PLC,IN-WEST,2024-01-28,SaaS
+BP100406,Martin Ltd,US-EAST,2024-02-10,SaaS
+BP100407,"Jacobson, Singleton and King",IN-WEST,2024-04-24,Retail
+BP100408,"Hill, Weber and Mendez",US-WEST,2024-01-17,FinServ
+BP100409,"Jackson, David and Moore",IN-EAST,2024-04-29,Manufacturing
+BP100410,"Winters, Morgan and Bradshaw",IN-NORTH,2024-01-08,SaaS
+BP100411,Miller Ltd,US-EAST,2024-05-19,Manufacturing
+BP100412,Curtis-Wang,US-WEST,2024-03-16,Telecom
+BP100413,"Johnson, Small and Gardner",IN-SOUTH,2024-04-26,Manufacturing
+BP100414,Webb-Ballard,IN-WEST,2024-05-03,Manufacturing
+BP100415,Chavez-Barker,US-EAST,2024-01-29,SaaS
+BP100416,Washington-Harris,US-EAST,2024-04-19,SaaS
+BP100417,Hensley-Flores,IN-WEST,2024-06-27,Retail
+BP100418,Hester-Anderson,IN-EAST,2024-03-08,Manufacturing
+BP100419,"Rodriguez, Allen and Martinez",IN-WEST,2024-03-22,SaaS
+BP100420,Davis LLC,US-EAST,2024-06-20,Manufacturing
+BP100421,"Barnes, Estes and Barrera",IN-WEST,2024-05-27,SaaS
+BP100422,"Griffith, Lee and Moore",IN-EAST,2024-06-29,FinServ
+BP100423,Jimenez-Parker,IN-SOUTH,2024-01-05,FinServ
+BP100424,Wagner-Levy,IN-WEST,2024-02-08,Manufacturing
+BP100425,Williams-Campbell,IN-EAST,2024-04-18,Manufacturing
+BP100426,"Chambers, Mitchell and Smith",IN-NORTH,2024-01-20,FinServ
+BP100427,Khan Ltd,IN-NORTH,2024-03-07,Manufacturing
+BP100428,Diaz-Morales,US-EAST,2024-04-13,Manufacturing
+BP100429,Cox LLC,IN-WEST,2024-01-14,Retail
+BP100430,"Cole, Pierce and Bryan",US-EAST,2024-04-22,FinServ
+BP100431,"Wilson, Hester and Long",IN-EAST,2024-05-23,FinServ
+BP100432,Grant-Diaz,US-WEST,2024-01-27,Retail
+BP100433,"Hicks, Porter and Williams",IN-WEST,2024-01-25,Media
+BP100434,Brock-Stone,IN-NORTH,2024-01-27,SaaS
+BP100435,"Taylor, Velazquez and Flores",IN-WEST,2024-03-12,FinServ
+BP100436,"Stevenson, Evans and Rogers",IN-NORTH,2024-05-29,FinServ
+BP100437,"Burns, Hart and Wells",US-EAST,2024-01-04,Retail
+BP100438,Nunez-Whitney,US-WEST,2024-04-15,FinServ
+BP100439,"Wiggins, Soto and Carlson",IN-WEST,2024-02-18,SaaS
+BP100440,"Patton, Parsons and Lane",IN-EAST,2024-05-10,Media
+BP100441,"Castillo, Warren and Griffith",IN-NORTH,2024-05-20,FinServ
+BP100442,Hernandez-Becker,IN-NORTH,2024-01-06,Media
+BP100443,"Rodriguez, Smith and Edwards",IN-WEST,2024-01-28,Media
+BP100444,"Harris, Shaw and Carr",IN-WEST,2024-03-26,Retail
+BP100445,"Luna, Thornton and Stone",US-WEST,2024-04-11,Media
+BP100446,"Mendoza, Bennett and Frye",US-EAST,2024-03-24,SaaS
+BP100447,"Peterson, Gomez and Ingram",US-EAST,2024-05-10,Telecom
+BP100448,"Lara, Baker and Washington",IN-SOUTH,2024-06-22,Telecom
+BP100449,Grant-Walker,US-WEST,2024-06-25,FinServ
+BP100450,Wise-Bush,IN-EAST,2024-05-04,Retail
+BP100451,Stewart-Bailey,IN-NORTH,2024-06-17,Manufacturing
+BP100452,"Hill, Martinez and Rhodes",IN-EAST,2024-03-09,Manufacturing
+BP100453,Cardenas-Blevins,US-WEST,2024-05-25,FinServ
+BP100454,Williams-Moses,IN-EAST,2024-01-15,SaaS
+BP100455,Douglas-Burgess,IN-SOUTH,2024-02-08,Media
+BP100456,"Nelson, Hoffman and Nelson",IN-NORTH,2024-01-20,FinServ
+BP100457,"Matthews, Sanchez and Santiago",US-WEST,2024-04-06,Telecom
+BP100458,"Hall, Garcia and Rivera",IN-WEST,2024-03-26,Manufacturing
+BP100459,"Townsend, Smith and Pierce",US-EAST,2024-06-17,Media
+BP100460,Delgado-Gilmore,IN-EAST,2024-03-27,Retail
+BP100461,"Gonzalez, Maynard and Morris",US-EAST,2024-04-26,Media
+BP100462,Pearson and Sons,IN-EAST,2024-04-06,Manufacturing
+BP100463,"Jefferson, Johnson and Dorsey",US-EAST,2024-03-16,Media
+BP100464,Peck Inc,IN-WEST,2024-06-29,Manufacturing
+BP100465,French-Lopez,IN-EAST,2024-05-15,Media
+BP100466,Mcdowell-Smith,IN-WEST,2024-04-12,Media
+BP100467,Hebert LLC,IN-NORTH,2024-02-21,SaaS
+BP100468,"Daniels, Snyder and Mays",US-WEST,2024-06-03,Telecom
+BP100469,Nelson-Lamb,IN-WEST,2024-02-29,SaaS
+BP100470,"Stevens, Scott and Lopez",US-WEST,2024-05-13,Retail
+BP100471,Bradley-Todd,US-WEST,2024-02-01,Telecom
+BP100472,"Prince, Wilcox and Robertson",IN-NORTH,2024-01-16,Telecom
+BP100473,"Davis, Holden and Woods",US-WEST,2024-06-18,FinServ
+BP100474,Green and Sons,IN-WEST,2024-03-21,Manufacturing
+BP100475,Finley-Turner,US-EAST,2024-05-10,Retail
+BP100476,Green LLC,US-EAST,2024-05-05,Media
+BP100477,Contreras Group,IN-SOUTH,2024-02-25,Telecom
+BP100478,Parks-Leblanc,IN-WEST,2024-06-09,Telecom
+BP100479,Vaughn-Fowler,IN-WEST,2024-06-19,Telecom
+BP100480,Mendez-Robinson,IN-WEST,2024-01-25,SaaS
+BP100481,Gibson PLC,US-WEST,2024-03-08,Retail
+BP100482,"Dunn, Ruiz and Medina",IN-NORTH,2024-04-30,Media
+BP100483,Gill Ltd,IN-SOUTH,2024-05-16,SaaS
+BP100484,Fox PLC,US-EAST,2024-05-07,Media
+BP100485,Stark Inc,US-WEST,2024-01-12,Telecom
+BP100486,"Leach, Harris and Herrera",US-WEST,2024-01-30,FinServ
+BP100487,"Ramos, Frazier and Love",IN-SOUTH,2024-03-29,SaaS
+BP100488,"Griffin, Brown and Anderson",US-EAST,2024-03-16,Media
+BP100489,"Brown, Ford and Roman",IN-EAST,2024-05-10,FinServ
+BP100490,Scott-Smith,IN-EAST,2024-02-09,Media
+BP100491,Williams LLC,IN-NORTH,2024-05-06,SaaS
+BP100492,"Mcknight, Michael and Jones",IN-WEST,2024-06-18,FinServ
+BP100493,Mitchell and Sons,IN-SOUTH,2024-05-19,SaaS
+BP100494,"Good, Brewer and Fisher",IN-EAST,2024-06-28,FinServ
+BP100495,West-Stark,IN-SOUTH,2024-03-09,Retail
+BP100496,Vega Ltd,US-WEST,2024-06-07,Manufacturing
+BP100497,Valdez LLC,IN-SOUTH,2024-01-22,Telecom
+BP100498,"Long, Anderson and Irwin",IN-NORTH,2024-05-31,Retail
+BP100499,Good Group,IN-WEST,2024-05-01,SaaS
+BP100500,"Coleman, Gray and Hall",IN-NORTH,2024-03-24,SaaS
