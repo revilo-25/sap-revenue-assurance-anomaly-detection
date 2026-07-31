@@ -1,29 +1,3 @@
-"""
-SAP Revenue Assurance — Anomaly Detection & Explainability Pipeline
-=====================================================================
-A financial-controls analytics case study on synthetic SAP-style
-subscription billing data (FI-CA document structure: business partner ->
-contract account -> billing document -> GL posting).
-
-NOTE ON DATA: All data in this project is synthetically generated. Business
-partner names, contract accounts, and billing documents are fictional and
-do not represent any real company, customer, or transaction.
-
-Pipeline:
-  1. Load & join billing / contract / partner data
-  2. Feature engineering (contextual, not absolute — see notes inline)
-  3. Unsupervised anomaly detection (Isolation Forest)
-  4. Hybrid rule + ML layer (fixes a known ML blind spot for duplicates)
-  5. Evaluation against seeded ground truth (precision/recall/F1, cost-weighted)
-  6. Explainability — SHAP on a supervised surrogate model, so every flagged
-     transaction comes with a "why", not just a score
-  7. Dashboard export
-
-Requirements:
-  pip install -r requirements.txt
-
-Run this first — revenue_forecast.py can be run independently afterward.
-"""
 
 import os
 import pandas as pd
@@ -46,7 +20,6 @@ plt.rcParams["xtick.color"] = "#8A95A5"
 plt.rcParams["ytick.color"] = "#8A95A5"
 plt.rcParams["grid.color"] = "#232E3D"
 
-# Portable paths — run this script from the project root.
 DATA_DIR = "./data"
 OUT_DIR = "./outputs"
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -54,9 +27,6 @@ os.makedirs(OUT_DIR, exist_ok=True)
 ACCENT = "#E8A33D"
 NORMAL = "#4FA88F"
 
-# =============================================================================
-# 1. LOAD & JOIN
-# =============================================================================
 billing = pd.read_csv(f"{DATA_DIR}/billing_documents.csv")
 contracts = pd.read_csv(f"{DATA_DIR}/contracts.csv")
 bp = pd.read_csv(f"{DATA_DIR}/business_partners.csv")
@@ -71,9 +41,6 @@ df = df.merge(bp[["GPART", "REGION", "INDUSTRY"]], on="GPART", how="left")
 print(f"Loaded {len(df):,} billing documents | {df['GPART'].nunique()} customers | "
       f"{len(truth)} seeded ground-truth anomalies")
 
-# =============================================================================
-# 2. FEATURE ENGINEERING — every feature is RELATIVE, not absolute
-# =============================================================================
 df["EXPECTED_AMOUNT"] = df["BASE_FEE"] + df["USAGE_UNITS"] * df["USAGE_RATE"]
 df["AMOUNT_DEVIATION_PCT"] = (
     (df["INVOICE_AMOUNT"] - df["EXPECTED_AMOUNT"]) / df["EXPECTED_AMOUNT"].replace(0, np.nan)
@@ -100,30 +67,18 @@ model_df = df.copy()
 model_df[FEATURES] = model_df[FEATURES].replace([np.inf, -np.inf], np.nan)
 model_df[FEATURES] = model_df[FEATURES].fillna(model_df[FEATURES].median())
 
-# =============================================================================
-# 3. ISOLATION FOREST — unsupervised anomaly detection
-# =============================================================================
 X = StandardScaler().fit_transform(model_df[FEATURES])
 iso_forest = IsolationForest(n_estimators=300, contamination=0.05, random_state=42)
 model_df["ANOMALY_SCORE_RAW"] = iso_forest.fit_predict(X)
 model_df["ANOMALY_DECISION_SCORE"] = iso_forest.decision_function(X)
 model_df["PREDICTED_ANOMALY"] = (model_df["ANOMALY_SCORE_RAW"] == -1).astype(int)
 
-# =============================================================================
-# 4. HYBRID RULE + ML LAYER
-# =============================================================================
-# Isolation Forest structurally cannot catch exact duplicate charges — a
-# duplicate's amount is, by definition, a statistically normal value, so
-# there is no outlier signal for the model to find. A deterministic rule
-# closes that gap instead of forcing the ML model to do something it can't.
 model_df["RULE_FLAG_DUPLICATE"] = model_df["IS_DUPLICATE_PERIOD"]
 model_df["FINAL_ANOMALY_FLAG"] = (
     (model_df["PREDICTED_ANOMALY"] == 1) | (model_df["RULE_FLAG_DUPLICATE"] == 1)
 ).astype(int)
 
-# =============================================================================
-# 5. EVALUATION — precision/recall/F1 + a COST-WEIGHTED view
-# =============================================================================
+
 truth_ids = set(truth["BILLING_DOC"])
 model_df["IS_TRUE_ANOMALY"] = model_df["BILLING_DOC"].isin(truth_ids).astype(int)
 
@@ -138,9 +93,6 @@ print("\n--- Detection performance ---")
 eval_flag("PREDICTED_ANOMALY", "ML only")
 p, r, f1 = eval_flag("FINAL_ANOMALY_FLAG", "Hybrid (ML + rule)")
 
-# Cost-weighted view: a missed high-value anomaly matters far more than a
-# missed low-value one. Precision/recall treat every case equally; dollar
-# terms are what a finance stakeholder actually cares about.
 missed = model_df[(model_df.IS_TRUE_ANOMALY == 1) & (model_df.FINAL_ANOMALY_FLAG == 0)]
 caught = model_df[(model_df.IS_TRUE_ANOMALY == 1) & (model_df.FINAL_ANOMALY_FLAG == 1)]
 total_true_value = model_df.loc[model_df.IS_TRUE_ANOMALY == 1, "INVOICE_AMOUNT"].abs().sum()
@@ -158,13 +110,6 @@ recall_by_type = (
 print("\n--- Recall by anomaly type (hybrid) ---")
 print(recall_by_type.round(3))
 
-# =============================================================================
-# 6. EXPLAINABILITY — SHAP on a supervised surrogate model
-# =============================================================================
-# Isolation Forest scores don't decompose cleanly into per-feature attribution.
-# The standard workaround: train a supervised surrogate (RandomForest) to
-# reproduce the hybrid flag decision, then explain THAT model with SHAP.
-# This answers the question every reviewer asks: "flagged — but WHY?"
 X_train, X_test, y_train, y_test = train_test_split(
     model_df[FEATURES], model_df["FINAL_ANOMALY_FLAG"], test_size=0.3,
     random_state=42, stratify=model_df["FINAL_ANOMALY_FLAG"]
